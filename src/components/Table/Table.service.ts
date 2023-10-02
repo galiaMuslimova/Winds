@@ -18,7 +18,6 @@ export const defaultEntity = {
   isEdit: true,
   isNew: true,
   level: 1,
-  hasSibling: false,
 };
 
 export function getFlatList(

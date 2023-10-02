@@ -12,5 +12,4 @@ export interface StyledLevelProps {
   level: number;
   hasChild: boolean;
   hasParent: boolean;
-  hasSibling: boolean;
 }
