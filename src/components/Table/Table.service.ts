@@ -56,7 +56,6 @@ export function addRow(
     parentId,
     isEdit: true,
     isNew: true,
-    hasSibling: false,
   };
   return [...list.slice(0, index + 1), newEntity, ...list.slice(index + 1)];
 }
